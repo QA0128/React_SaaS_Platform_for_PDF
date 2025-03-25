@@ -29,7 +29,7 @@ export default function Header() {
 
 
   return (
-    <div className='border-b border-[#DDE1E6]'>
+    <div className='w-full bg-white border-b border-[#DDE1E6] relative z-3'>
       <div className="py-6 max-w-7xl m-auto h-[80px] flex justify-center flex-col">
         <nav className="relative flex justify-between items-center bg-white mx-3 lg:mx-0">
           <a className="text-3xl font-bold leading-none" href="#">
@@ -72,10 +72,10 @@ export default function Header() {
             </li>
           </ul>
           <div className="hidden lg:flex items-center gap-[16px]">
-            <button className="hover:bg-blue-500 text-[#0076CE] text-base font-semibold hover:text-white py-4 px-7 flex border border-blue-500 hover:border-transparent rounded-lg h-[48px] items-center">
+            <Button href="/" color="transparent" className="text-[#0076CE] border border-blue-500">
               <div>Log in</div>
-            </button>
-            <Button text="Start Free Trial" href="/dashboard" className="h-[48px] text-base font-semibold px-4 content-around"/>
+            </Button>
+            <Button href="/dashboard" color="blue" className="h-[48px] text-white"><div>Start Free Trial</div></Button>
           </div>
         </nav>
         <div className="navbar-menu relative z-50 hidden">
@@ -115,7 +115,7 @@ export default function Header() {
                 </li>
                 <li className="mb-1">
                   <a
-                    className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                    className="block p-4 text-sm font-gilory font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
                     href="/integrations"
                   >
                     Integrations
@@ -133,10 +133,10 @@ export default function Header() {
             </div>
             <div className="mt-auto">
               <div className="pt-6">
-                <button className="hover:bg-blue-500 text-[#0076CE] w-full mb-3 text-base font-semibold hover:text-white py-4 px-7 flex border border-blue-500 hover:border-transparent rounded-lg h-[48px] justify-center">
+                <Button color='transparent' href='/login' className="text-[#0076CE] border border-blue-500">
                   <div>Log in</div>
-                </button>
-                <Button text="Start Free Trial" href="/dashboard" className="h-[48px] w-full text-base font-semibold px-4 content-around"/>
+                </Button>
+                <Button color="blue" href="/dashboard" className="text-white">Start Free Trial</Button>
               </div>
               <p className="my-4 text-xs text-center text-gray-400">
                 <span>Copyright © 2025</span>
