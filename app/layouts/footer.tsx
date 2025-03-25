@@ -4,7 +4,7 @@ import Button from "../components/button";
 
 export default function Footer() {
   return (
-    <div className="bg-[#0076CE]">
+    <div className="bg-[#0076CE] relative z-2">
       <div className="max-w-[1280px] px-8 pt-16 pb-12 m-auto">
         <div className="footer-content lg:flex">
           <div className="footer-link h-[88px]">
@@ -53,7 +53,7 @@ export default function Footer() {
                   <div className="w-full max-w-sm lg:min-w-[200px]">
                     <input className="w-full min-w-[226px] bg-white placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-white  shadow-sm focus:shadow h-[44px]" placeholder="Enter your email" />
                   </div>
-                  <Button text='Subscribe' className='border-1 border-solid rounded-lg h-[44px] px-3 py-4 flex items-center' href='/' />
+                  <Button color='blue' className='border-1 border-solid text-white border-white rounded-lg h-[44px] px-3 py-4 flex items-center' href='/'> Subscribe </Button>
                 </div>
               </form>
             </div>
