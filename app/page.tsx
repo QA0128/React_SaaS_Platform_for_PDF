@@ -65,15 +65,15 @@ export default function Home() {
             <div className="content-container m-auto text-[#697077]">
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 pt-4 pb-4 lg:pb-[80px]">
                 <div className="outlink m-2 w-full flex min-w-[200px]">
-                  <Image src={`/assets/icons/shells.ico`} width={32} height={32} alt="Shells Icon" className='!h-fit'/>
+                  <Image src={`/assets/icons/shells.ico`} width={32} height={32} alt="Shells Icon" className='h-[32px] w-[32px]'/>
                   <div className="text-2xl flex-grow text-center font-bold">SHELLS</div>
                 </div>
                 <div className="outlink m-2 w-full flex min-w-[200px]">
-                  <Image src={`/assets/icons/smartfinder.ico`} width={32} height={32} alt="SmartFinder Icon" className='!h-fit'/>
+                  <Image src={`/assets/icons/smartfinder.ico`} width={32} height={32} alt="SmartFinder Icon" className='h-[32px] w-[32px]'/>
                   <div className="text-2xl flex-grow text-center font-bold">SmartFinder</div>
                 </div>
                 <div className="outlink m-2 w-full flex min-w-[200px]">
-                  <Image src={`/assets/icons/zoomerr.ico`} width={32} height={32} alt="Zoomerr Icon" className='!h-fit'/>
+                  <Image src={`/assets/icons/zoomerr.ico`} width={32} height={32} alt="Zoomerr Icon" className='h-[32px] w-[32px]'/>
                   <div className="text-2xl flex-grow text-center font-bold">Zoomerr</div>
                 </div>
                 <div className="outlink m-2 w-full flex min-w-[200px]">
@@ -87,11 +87,11 @@ export default function Home() {
                   <div className="text-2xl flex-grow text-center font-bold">ArtVenue</div>
                 </div>
                 <div className="outlink m-2 w-full flex min-w-[200px]">
-                  <Image src={`/assets/icons/kontrastr.ico`} width={24} height={30} alt="Kontrastr Icon" className='!h-fit'/>
+                  <Image src={`/assets/icons/kontrastr.ico`} width={24} height={30} alt="Kontrastr Icon" className='w-[32px] h-[32px]'/>
                   <div className="text-2xl flex-grow text-center font-bold">kontrastr</div>
                 </div>
                 <div className="outlink m-2 w-full flex min-w-[200px]">
-                  <Image src={`/assets/icons/wavesMarathon.ico`} width={24} height={30} alt="Waves Marathon Icon" className='!h-fit'/>
+                  <Image src={`/assets/icons/wavesMarathon.ico`} width={24} height={30} alt="Waves Marathon Icon" className='w-[32px] h-[32px]'/>
                   <div className="text-lg flex-grow text-center font-medium">
                     <span className="font-bold">WAVES</span>MARATHON
                   </div>
