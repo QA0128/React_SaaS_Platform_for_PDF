@@ -1,4 +1,3 @@
-import AuthLayout from "@/app/layouts/auth";
 import React from "react";
 
 interface ResetPasswordProps{

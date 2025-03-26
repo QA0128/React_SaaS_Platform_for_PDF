@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Button from '../components/button';
-import { DollarSign, Search, EllipsisVertical } from 'lucide-react';
+import Image from "next/image";
+import Button from "../components/button";
+import { DollarSign, Search, EllipsisVertical } from "lucide-react";
 
 export default function DashboardPage() {
   return (
@@ -47,72 +47,72 @@ export default function DashboardPage() {
             />
           </div>
         </div>
-        <div className='mt-8'>
-          <div className='flex items-center gap-4 py-4'>
+        <div className="mt-8">
+          <div className="flex items-center gap-4 py-4">
             <div>
-              <Image src="/assets/integrations/zapier.png" width={48} height={48} alt='Zapier Company'/>
+              <Image src="/assets/integrations/zapier.png" width={48} height={48} alt="Zapier Company"/>
             </div>
-            <div className='grow'>
-              <div className='font-semibold leading-[24px] text-[#344054]'>Zapier</div>
-              <div className='text-[#475467] text-sm leading-[20px] font-normal'>Build custom automations and integrations with other apps.</div>
+            <div className="grow">
+              <div className="font-semibold leading-[24px] text-[#344054]">Zapier</div>
+              <div className="text-[#475467] text-sm leading-[20px] font-normal">Build custom automations and integrations with other apps.</div>
             </div>
-            <div className='font-semibold text-sm leading-[20px] mr-2'>Learn more</div>
+            <div className="font-semibold text-sm leading-[20px] mr-2">Learn more</div>
           </div>
-          <hr className='border-[#EAECF0]'/>
-          <div className='flex items-center gap-4 py-4'>
+          <hr className="border-[#EAECF0]"/>
+          <div className="flex items-center gap-4 py-4">
             <div>
-              <Image src="/assets/integrations/make.png" width={48} height={48} alt='Zapier Company'/>
+              <Image src="/assets/integrations/make.png" width={48} height={48} alt="Zapier Company"/>
             </div>
-            <div className='grow'>
-              <div className='font-semibold leading-[24px] text-[#344054]'>Make</div>
-              <div className='text-[#475467] text-sm leading-[20px] font-normal'>Streamline software projects, sprints, tasks, and bug tracking.</div>
+            <div className="grow">
+              <div className="font-semibold leading-[24px] text-[#344054]">Make</div>
+              <div className="text-[#475467] text-sm leading-[20px] font-normal">Streamline software projects, sprints, tasks, and bug tracking.</div>
             </div>
-            <div className='font-semibold text-sm leading-[20px] mr-2'>Learn more</div>
+            <div className="font-semibold text-sm leading-[20px] mr-2">Learn more</div>
           </div>
-          <hr className='border-[#EAECF0]'/>
-          <div className='flex items-center gap-4 py-4'>
+          <hr className="border-[#EAECF0]"/>
+          <div className="flex items-center gap-4 py-4">
             <div>
-              <Image src="/assets/integrations/n8n.png" width={48} height={48} alt='N8N Company'/>
+              <Image src="/assets/integrations/n8n.png" width={48} height={48} alt="N8N Company"/>
             </div>
-            <div className='grow'>
-              <div className='font-semibold leading-[24px] text-[#344054]'>N8N</div>
-              <div className='text-[#475467] text-sm leading-[20px] font-normal'>Link pull requests and automate workflows.</div>
+            <div className="grow">
+              <div className="font-semibold leading-[24px] text-[#344054]">N8N</div>
+              <div className="text-[#475467] text-sm leading-[20px] font-normal">Link pull requests and automate workflows.</div>
             </div>
-            <div className='font-semibold text-sm leading-[20px] mr-2'>Learn more</div>
+            <div className="font-semibold text-sm leading-[20px] mr-2">Learn more</div>
           </div>
-          <hr className='border-[#EAECF0]'/>
-          <div className='flex items-center gap-4 py-4'>
+          <hr className="border-[#EAECF0]"/>
+          <div className="flex items-center gap-4 py-4">
             <div>
-              <Image src="/assets/integrations/w.png" width={48} height={48} alt='Workato Company'/>
+              <Image src="/assets/integrations/w.png" width={48} height={48} alt="Workato Company"/>
             </div>
-            <div className='grow'>
-              <div className='font-semibold leading-[24px] text-[#344054]'>Workato</div>
-              <div className='text-[#475467] text-sm leading-[20px] font-normal'>Embed file previews in projects.</div>
+            <div className="grow">
+              <div className="font-semibold leading-[24px] text-[#344054]">Workato</div>
+              <div className="text-[#475467] text-sm leading-[20px] font-normal">Embed file previews in projects.</div>
             </div>
-            <div className='font-semibold text-sm leading-[20px] mr-2'>Learn more</div>
+            <div className="font-semibold text-sm leading-[20px] mr-2">Learn more</div>
           </div>
         </div>
       </div>
       <div className="my-4 p-5 rounded-lg border-1 border-solid border-[#EAECF0] bg-white">
-        <div className='flex justify-between'>
-          <div className='font-semibold text-xl leading-[30px]'>Subscription</div>
+        <div className="flex justify-between">
+          <div className="font-semibold text-xl leading-[30px]">Subscription</div>
           <EllipsisVertical />
         </div>
-        <div className='text-[#027A48] font-medium text-[12px] w-fit leading-[18px] py-1 px-2 mt-2 rounded-50% bg-[#ECFDF3]'>
+        <div className="text-[#027A48] font-medium text-[12px] w-fit leading-[18px] py-1 px-2 mt-2 rounded-50% bg-[#ECFDF3]">
           Enterprise
         </div>
-        <div className='flex flex-col gap-4 mt-4'>
-          <div className='flex justify-between'>
-            <div className='font-medium text-base text-[#4D5464] leading-[24px]'>Renewable frequency</div>
-            <div className='text-[#667085] text-sm font-normal leading-[20px]'>Monthly</div>
+        <div className="flex flex-col gap-4 mt-4">
+          <div className="flex justify-between">
+            <div className="font-medium text-base text-[#4D5464] leading-[24px]">Renewable frequency</div>
+            <div className="text-[#667085] text-sm font-normal leading-[20px]">Monthly</div>
           </div>
-          <div className='flex justify-between'>
-            <div className='font-medium text-base text-[#4D5464] leading-[24px]'>Features included</div>
-            <div className='text-[#667085] text-sm font-normal leading-[20px]'>10GB Storage, 30 invoices/month</div>
+          <div className="flex justify-between">
+            <div className="font-medium text-base text-[#4D5464] leading-[24px]">Features included</div>
+            <div className="text-[#667085] text-sm font-normal leading-[20px]">10GB Storage, 30 invoices/month</div>
           </div>
-          <div className='flex justify-between'>
-            <div className='font-medium text-base text-[#4D5464] leading-[24px]'>Billing Cycle Info</div>
-            <div className='text-[#667085] text-sm font-normal leading-[20px]'>Next renewal: Nov 25, 2024</div>
+          <div className="flex justify-between">
+            <div className="font-medium text-base text-[#4D5464] leading-[24px]">Billing Cycle Info</div>
+            <div className="text-[#667085] text-sm font-normal leading-[20px]">Next renewal: Nov 25, 2024</div>
           </div>
         </div>
       </div>

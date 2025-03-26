@@ -1,7 +1,5 @@
 'use client'
 import { ReactNode, useState, useEffect } from "react";
-import Header from "../layouts/header";
-import Footer from "../layouts/footer";
 import DashboardNavbar from "../shared/navbar";
 import Sidebar from "../shared/sidebar";
 import { useMediaQuery } from 'usehooks-ts';

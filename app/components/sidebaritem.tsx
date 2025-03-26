@@ -9,12 +9,11 @@ const toPascalCase = (str:string) =>
 
 type SidebarProps = {
   icon: string;
-  to?: string;
   active?: boolean;
   label: string;
 }
 
-const SidebarItem = ({ to, icon, label, active }: SidebarProps) => {
+const SidebarItem = ({ icon, label, active }: SidebarProps) => {
 
   const pascalName = toPascalCase(icon);
   const LucideIcon = Icons[pascalName as keyof typeof Icons] as LucideIcon | undefined;

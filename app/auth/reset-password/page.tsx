@@ -1,7 +1,6 @@
 'use client';
 
 import Button from '@/app/components/button';
-import Image from 'next/image';
 import { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
 
