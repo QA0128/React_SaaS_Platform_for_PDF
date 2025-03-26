@@ -139,15 +139,15 @@ export default function DashboardPage() {
         <div className="integrate-content content-container justify-self-center">
           <div className="text-[42px] font-bold">Integrating With {integrateType}</div>
           <div className="text-2xl leading-[30px] font-medium">
-            Connect PDFRender with thousands of apps using Zapier's no-code platform.
+            Connect PDFRender with thousands of apps using Zapier&apos;s no-code platform.
           </div>
           <div className="text-[20px]">
             <p className="pt-8 pb-4">
               Zapier is a powerful automation platform that allows you to connect different applications and automate
               workflows without the need for coding. By integrating PDFRender with Zapier, you can streamline the
               process of converting HTML to PDF, making it an essential tool for businesses looking to enhance
-              efficiency and reduce manual tasks. Whether you're automating document creation, report generation, or any
-              PDF-related task, PDFRender's integration with Zapier simplifies the process.
+              efficiency and reduce manual tasks. Whether you&apos;re automating document creation, report generation, or any
+              PDF-related task, PDFRender&apos;s integration with Zapier simplifies the process.
             </p>
             <p className="py-4">
               With PDFRender, creating, updating, and downloading PDFs becomes effortless. This integration is designed
@@ -158,7 +158,7 @@ export default function DashboardPage() {
             </p>
             <p className="py-4">
               This page also includes example templates to help you get started quickly, FAQs to address common
-              concerns, and guidance on leveraging PDFRender's features to their fullest potential. Whether you're a
+              concerns, and guidance on leveraging PDFRender&apos;s features to their fullest potential. Whether you&apos;re a
               beginner or an experienced user, this guide will ensure that your integration process is smooth and
               successful.
             </p>
@@ -191,7 +191,7 @@ export default function DashboardPage() {
                 </div>
                 <div className="flex gap-4 mb-4 items-center">
                   <Image src={'/assets/icons/check-circle.ico'} height={28} width={28} alt="Check Circle Icon" />
-                  <div>Click "Create Zap" and select PDFRender as the trigger.</div>
+                  <div>Click &quot;Create Zap&quot; and select PDFRender as the trigger.</div>
                 </div>
                 <div className="flex gap-4 mb-4 items-center">
                   <Image src={'/assets/icons/check-circle.ico'} height={28} width={28} alt="Check Circle Icon" />
@@ -244,7 +244,7 @@ export default function DashboardPage() {
               </div>
               <div className="text-3xl font-semibold leading-[38px] my-4">Integrating with Make</div>
               <div className='pb-8'>
-                Use Make's visual builder to automate complex PDF generation workflows.
+                Use Make&apos;s visual builder to automate complex PDF generation workflows.
               </div>
               <div>
                 <div className="flex gap-4 mb-4 items-center">
@@ -286,7 +286,7 @@ export default function DashboardPage() {
                 />
               </div>
               <div className="text-3xl font-semibold leading-[38px] my-4">Integrating with N8N</div>
-              <div className='mb-8'>Create custom automation workflows using N8N's self-hosted solution.</div>
+              <div className='mb-8'>Create custom automation workflows using N8N&apos;s self-hosted solution.</div>
               <div>
                 <div className="flex gap-4 mb-4 items-center">
                   <Image src={'/assets/icons/check-circle.ico'} height={28} width={28} alt="Check Circle Icon" />

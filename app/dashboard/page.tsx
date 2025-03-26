@@ -8,7 +8,7 @@ export default function DashboardPage() {
       <div className="flex items-center">
         <div className="grow">
           <p className="font-semibold text-xl leading-[30px]">Welcome Jhon Doe!</p>
-          <p className="font-normal text-base leading-[24px] mt-2">Here's quick overview of your account status.</p>
+          <p className="font-normal text-base leading-[24px] mt-2">Here&apos;s quick overview of your account status.</p>
         </div>
         <Button color="blue" href="/" className="text-white text-sm h-[44px]">
           Generate PDF

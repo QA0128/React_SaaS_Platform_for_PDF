@@ -75,7 +75,7 @@ export default function LoginPage() {
           </div>
           <Button color="blue" href="#" className="w-full lg:!max-w-none text-white mt-4">Log in</Button>
           <div className="w-full mt-12 text-base text-center">
-            Don"t you have an account?
+            Don&apos;t you have an account?
             <a href="/auth/signup" className="text-blue-600 font-medium hover:underline">
               Create an account
             </a>
