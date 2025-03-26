@@ -72,7 +72,7 @@ export default function Header() {
             </li>
           </ul>
           <div className="hidden lg:flex items-center gap-[16px]">
-            <Button href="/" color="transparent" className="text-[#0076CE] border border-blue-500">
+            <Button href="/auth/login" color="transparent" className="text-[#0076CE] border border-blue-500 !w-[106px]">
               <div>Log in</div>
             </Button>
             <Button href="/dashboard" color="blue" className="h-[48px] text-white"><div>Start Free Trial</div></Button>
@@ -133,7 +133,7 @@ export default function Header() {
             </div>
             <div className="mt-auto">
               <div className="pt-6">
-                <Button color='transparent' href='/login' className="text-[#0076CE] border border-blue-500">
+                <Button color='transparent' href='/auth/login' className="text-[#0076CE] border border-blue-500">
                   <div>Log in</div>
                 </Button>
                 <Button color="blue" href="/dashboard" className="text-white">Start Free Trial</Button>
