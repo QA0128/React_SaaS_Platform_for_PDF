@@ -133,10 +133,10 @@ export default function Header() {
             </div>
             <div className="mt-auto">
               <div className="pt-6">
-                <Button color='transparent' href='/auth/login' className="text-[#0076CE] border border-blue-500">
+                <Button color='transparent' href='/auth/login' className="text-[#0076CE] w-full border border-blue-500">
                   <div>Log in</div>
                 </Button>
-                <Button color="blue" href="/dashboard" className="text-white">Start Free Trial</Button>
+                <Button color="blue" href="/dashboard" className="text-white w-full">Start Free Trial</Button>
               </div>
               <p className="my-4 text-xs text-center text-gray-400">
                 <span>Copyright © 2025</span>
