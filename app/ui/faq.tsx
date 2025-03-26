@@ -30,7 +30,7 @@ const Faqs = () => {
               </svg>
             </div>
           </summary>
-          <div className="pb-4 text-secondary-500">This is the first item's accordion body.</div>
+          <div className="pb-4 text-secondary-500">This is the first item&apos;s accordion body.</div>
         </details>
         <details className="group bg-white p-4 w-full max-w-[900px] mb-4">
           <summary className="flex font-('bolder') cursor-pointer list-none items-center justify-between text-lg font-medium text-secondary-900 group-open:text-primary-500" style={{fontWeight:'bolder'}}>
@@ -58,7 +58,7 @@ const Faqs = () => {
               </svg>
             </div>
           </summary>
-          <div className="pb-4 text-secondary-500">This is the second item's accordion body.</div>
+          <div className="pb-4 text-secondary-500">This is the second item&apos;s accordion body.</div>
         </details>
         <details className="group bg-white p-4 w-full max-w-[900px] mb-4">
           <summary className="flex font-('bolder') cursor-pointer list-none items-center justify-between text-lg font-medium text-secondary-900 group-open:text-primary-500" style={{fontWeight:'bolder'}}>
@@ -86,7 +86,7 @@ const Faqs = () => {
               </svg>
             </div>
           </summary>
-          <div className="pb-4 text-secondary-500">This is the third item's accordion body.</div>
+          <div className="pb-4 text-secondary-500">This is the third item&apos;s accordion body.</div>
         </details>
         <details className="group bg-white p-4 w-full max-w-[900px] mb-4">
           <summary className="flex font-('bolder') cursor-pointer list-none items-center justify-between text-lg font-medium text-secondary-900 group-open:text-primary-500" style={{fontWeight:'bolder'}}>
@@ -114,7 +114,7 @@ const Faqs = () => {
               </svg>
             </div>
           </summary>
-          <div className="pb-4 text-secondary-500">This is the third item's accordion body.</div>
+          <div className="pb-4 text-secondary-500">This is the third item&apos;s accordion body.</div>
         </details>
       </div>
     </div>

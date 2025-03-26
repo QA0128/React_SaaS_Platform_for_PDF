@@ -195,7 +195,7 @@ export default function DashboardPage() {
                 </div>
                 <div className="flex gap-4 mb-4 items-center">
                   <Image src={'/assets/icons/check-circle.ico'} height={28} width={28} alt="Check Circle Icon" />
-                  <div>Choose the desired action (e.g., "Convert HTML to PDF").</div>
+                  <div>Choose the desired action (e.g., &quot;Convert HTML to PDF&quot;).</div>
                 </div>
                 <div className="flex gap-4 mb-4 items-center">
                   <Image src={'/assets/icons/check-circle.ico'} height={28} width={28} alt="Check Circle Icon" />
