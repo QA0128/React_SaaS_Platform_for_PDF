@@ -102,6 +102,18 @@ button {
   color: #21272A;
 }
 
+button, a{
+  cursor: pointer;
+}
+
+.item .item-feature{
+  font-family: 'Poppins', 'Atlassian Sans' !important;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6B7280;
+  line-height: 150%;
+}
+
 .content-container {
   max-width: 1280px;
 }

@@ -11,10 +11,10 @@ import Faqs from './ui/faq';
 
 export default function Home() {
   return (
-    <div className="container max-w-[1440px] bg-white m-auto">
+    <div className="container max-w-none bg-white m-auto">
       <Header />
       <main className="lg:min-h-[350px] bg-[#F2F4F8] relative overflow-hidden">
-        <section className="banner m-auto ">
+        <section className="banner m-auto max-w-[1440px] ">
           <div className="relative z-1 lg:grid grid-cols-12 gap-4">
             <Image
               src={'/assets/landing/Rows.png'}
