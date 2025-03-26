@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </div>
           <div className="z-2 relative text-sm font-semibold bg-[#F2F4F8]">
-            <div className="content-container m-auto text-[#21272A] mt-3">We're trusted by:</div>
+            <div className="content-container m-auto text-[#21272A] mt-3">We&apos;re trusted by:</div>
             <div className="content-container m-auto text-[#697077]">
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 pt-4 pb-4 lg:pb-[80px]">
                 <div className="outlink m-2 w-full flex min-w-[200px]">
@@ -210,7 +210,7 @@ export default function Home() {
               <div className="text-[42px] font-bold text-[#21272A] text-center">Native Integrations Section</div>
               <div className="max-w-[768px] text-center m-auto text-[20px] font-medium pt-4">
                 Connect your tools, connect your teams. With over 200 apps already available in our directly, your
-                team's favorite tools are just a click away.
+                team&apos;s favorite tools are just a click away.
               </div>
             </div>
             <div className="">
