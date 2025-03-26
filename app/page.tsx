@@ -14,7 +14,7 @@ export default function Home() {
     <div className="container max-w-none bg-white m-auto">
       <Header />
       <main className="lg:min-h-[350px] bg-[#F2F4F8] relative overflow-hidden">
-        <section className="banner m-auto max-w-[1440px] ">
+        <section className="banner m-auto max-w-[1280px] ">
           <div className="relative z-1 lg:grid grid-cols-12 gap-4">
             <Image
               src={'/assets/landing/Rows.png'}

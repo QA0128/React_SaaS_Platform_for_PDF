@@ -13,7 +13,7 @@ export default function DashboardPage() {
   return (
     <div className="overflow-hidden w-full">
       <section className="banner m-auto bg-[#F2F4F8]">
-        <div className="relative z-1 lg:grid grid-cols-12 gap-4">
+        <div className="relative max-w-[1280px] m-auto z-1 lg:grid grid-cols-12 gap-4">
           <Image
             src={'/assets/landing/Rows.png'}
             width={1296}
@@ -166,7 +166,7 @@ export default function DashboardPage() {
         </div>
       </section>
       <section className="m-auto bg-white pt-12">
-        <div className="lg:grid grid-cols-2 gap-4">
+        <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
           <div className="relative lg:h-[600px] flex flex-col justify-center">
             <div className="pl-[80px]">
               <div className="rounded-full w-fit bg-[#E4F1FA] border-8 rounded-full border-[#F1F9FF]">
@@ -222,7 +222,7 @@ export default function DashboardPage() {
         </div>
       </section>
       <section className="m-auto bg-white pt-12">
-        <div className="lg:grid grid-cols-2 gap-4">
+        <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
           <div className="hidden lg:block flex h-[512px] w-full m-auto">
             <img
               src={`/assets/dashboards/make.png`}
@@ -273,7 +273,7 @@ export default function DashboardPage() {
         </div>
       </section>
       <section className="m-auto bg-white pt-12">
-        <div className="lg:grid grid-cols-2 gap-4">
+        <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
           <div className="relative lg:h-[600px] flex flex-col justify-center">
             <div className="pl-[80px]">
               <div className="rounded-full w-fit bg-[#E4F1FA] border-8 rounded-full border-[#F1F9FF]">
@@ -317,7 +317,7 @@ export default function DashboardPage() {
         </div>
       </section>
       <section className="m-auto bg-white pt-12 pb-12">
-        <div className="lg:grid grid-cols-2 gap-4">
+        <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
           <div className="hidden lg:block flex h-[512px] w-full m-auto">
             <img
               src={`/assets/dashboards/workato.png`}
