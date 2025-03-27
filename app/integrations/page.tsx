@@ -231,11 +231,12 @@ export default function DashboardPage() {
         <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
           <div className="hidden lg:block flex h-[512px] w-full m-auto relative">
             <div className="absolute -left-[316px] p-[5px] pl-2 #595959 rounded-lg h-[550px] w-[950px]  bg-gradient-to-l from-black to-white overflow-hidden">
-              <div className="absolute rounded-lg w-full h-full top-[5px] bg-gradient-to-l from-transparent to-white"></div>
+              <div className="absolute z-2 rounded-lg w-full h-full top-[5px] bg-gradient-to-l from-transparent to-white"></div>
               <img
                 src={`/assets/dashboards/make.png`}
                 className="h-[543px] hidden lg:block object-cover overflow-visible object-left-top"
                 alt="Dashboard Screenshot"
+                style={{position:"inherit", right:"5px"}}
               />
             </div>
           </div>
@@ -328,13 +329,13 @@ export default function DashboardPage() {
       <section className="m-auto bg-white pt-12 pb-12">
         <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
           <div className="hidden lg:block flex h-[512px] w-full m-auto relative">
-            <div className="absolute -left-[316px] p-[5px] #595959 rounded-lg h-[550px] w-[950px]  bg-gradient-to-l from-black to-white overflow-hidden">
-              <div className="absolute rounded-lg w-full h-full top-[5px] bg-gradient-to-l from-transparent to-white"></div>
+            <div className="absolute -left-[256px] p-[5px] #595959 rounded-lg h-[550px] w-[800px]  bg-gradient-to-l from-black to-white overflow-hidden">
+              <div className="absolute z-2 rounded-lg w-full h-full top-[5px] bg-gradient-to-l from-transparent to-white"></div>
               <img
                 src={`/assets/dashboards/workato.png`}
-                className="h-[543px] hidden lg:block object-cover overflow-visible object-left-top positioned"
+                className="h-[540px] hidden lg:block object-cover overflow-visible object-left-top positioned"
                 alt="Dashboard Screenshot"
-                style={{right:'5px', position:'inherit'}}
+                style={{right:'124px', position:'inherit'}}
               />
             </div>
           </div>
