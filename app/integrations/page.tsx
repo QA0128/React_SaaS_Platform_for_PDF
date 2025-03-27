@@ -51,11 +51,14 @@ export default function DashboardPage() {
             </div>
           </div>
           <div className="hidden lg:block z-2 content-container lg:col-span-5 flex h-[512px] w-full m-auto">
-            <img
-              src={`/assets/landing/dashboard.png`}
-              className="border-solid border-3 border-gray-700 rounded-l-xl border-r-0 h-[512px] hidden lg:block object-cover object-left-top"
-              alt="Dashboard Screenshot"
-            />
+            <div className="absolute p-[5px] #595959 rounded-lg h-[551px] w-[725px]  bg-gradient-to-r from-[#595959] to-[#F2F4F8]">
+              <div className="absolute rounded-lg w-full h-[542] top-[5px] bg-gradient-to-r from-transparent to-[#F2F4F8]"></div>
+              <img
+                src={`/assets/landing/dashboard.png`}
+                className="h-[540px] hidden lg:block object-cover overflow-visible object-left-top"
+                alt="Dashboard Screenshot"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -146,8 +149,8 @@ export default function DashboardPage() {
               Zapier is a powerful automation platform that allows you to connect different applications and automate
               workflows without the need for coding. By integrating PDFRender with Zapier, you can streamline the
               process of converting HTML to PDF, making it an essential tool for businesses looking to enhance
-              efficiency and reduce manual tasks. Whether you&apos;re automating document creation, report generation, or any
-              PDF-related task, PDFRender&apos;s integration with Zapier simplifies the process.
+              efficiency and reduce manual tasks. Whether you&apos;re automating document creation, report generation,
+              or any PDF-related task, PDFRender&apos;s integration with Zapier simplifies the process.
             </p>
             <p className="py-4">
               With PDFRender, creating, updating, and downloading PDFs becomes effortless. This integration is designed
@@ -158,9 +161,9 @@ export default function DashboardPage() {
             </p>
             <p className="py-4">
               This page also includes example templates to help you get started quickly, FAQs to address common
-              concerns, and guidance on leveraging PDFRender&apos;s features to their fullest potential. Whether you&apos;re a
-              beginner or an experienced user, this guide will ensure that your integration process is smooth and
-              successful.
+              concerns, and guidance on leveraging PDFRender&apos;s features to their fullest potential. Whether
+              you&apos;re a beginner or an experienced user, this guide will ensure that your integration process is
+              smooth and successful.
             </p>
           </div>
         </div>
@@ -213,23 +216,28 @@ export default function DashboardPage() {
             </div>
           </div>
           <div className="hidden lg:block flex h-[512px] w-full m-auto pl-[80px]">
-            <img
-              src={`/assets/dashboards/zapier.png`}
-              className="border-solid border-3 border-gray-700 rounded-l-xl border-r-0 h-[512px] hidden lg:block object-cover object-left-top"
-              alt="Dashboard Screenshot"
-            />
+            <div className="absolute p-[5px] #595959 rounded-lg h-[551px] w-[950px]  bg-gradient-to-r from-black to-white">
+              <div className="absolute rounded-lg w-full h-[542] top-[5px] bg-gradient-to-r from-transparent to-white"></div>
+              <img
+                src={`/assets/dashboards/zapier.png`}
+                className="h-[540px] hidden lg:block object-cover overflow-visible object-left-top"
+                alt="Dashboard Screenshot"
+              />
+            </div>
           </div>
         </div>
       </section>
       <section className="m-auto bg-white pt-12">
         <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
-          <div className="hidden lg:block flex h-[512px] w-full m-auto">
-            <img
-              src={`/assets/dashboards/make.png`}
-              className="border-solid border-3 border-gray-700 rounded-r-xl border-l-0 h-[512px] hidden lg:block object-cover"
-              alt="Dashboard Screenshot"
-              style={{ objectPosition: '-149px -57px' }}
-            />
+          <div className="hidden lg:block flex h-[512px] w-full m-auto relative">
+            <div className="absolute -left-[316px] p-[5px] pl-2 #595959 rounded-lg h-[550px] w-[950px]  bg-gradient-to-l from-black to-white overflow-hidden">
+              <div className="absolute rounded-lg w-full h-full top-[5px] bg-gradient-to-l from-transparent to-white"></div>
+              <img
+                src={`/assets/dashboards/make.png`}
+                className="h-[543px] hidden lg:block object-cover overflow-visible object-left-top"
+                alt="Dashboard Screenshot"
+              />
+            </div>
           </div>
           <div className="relative lg:h-[600px] flex flex-col justify-center">
             <div className="pl-[80px]">
@@ -243,9 +251,7 @@ export default function DashboardPage() {
                 />
               </div>
               <div className="text-3xl font-semibold leading-[38px] my-4">Integrating with Make</div>
-              <div className='pb-8'>
-                Use Make&apos;s visual builder to automate complex PDF generation workflows.
-              </div>
+              <div className="pb-8">Use Make&apos;s visual builder to automate complex PDF generation workflows.</div>
               <div>
                 <div className="flex gap-4 mb-4 items-center">
                   <Image src={'/assets/icons/check-circle.ico'} height={28} width={28} alt="Check Circle Icon" />
@@ -286,7 +292,7 @@ export default function DashboardPage() {
                 />
               </div>
               <div className="text-3xl font-semibold leading-[38px] my-4">Integrating with N8N</div>
-              <div className='mb-8'>Create custom automation workflows using N8N&apos;s self-hosted solution.</div>
+              <div className="mb-8">Create custom automation workflows using N8N&apos;s self-hosted solution.</div>
               <div>
                 <div className="flex gap-4 mb-4 items-center">
                   <Image src={'/assets/icons/check-circle.ico'} height={28} width={28} alt="Check Circle Icon" />
@@ -308,22 +314,29 @@ export default function DashboardPage() {
             </div>
           </div>
           <div className="hidden lg:block flex h-[512px] w-full m-auto pl-[80px]">
-            <img
-              src={`/assets/dashboards/n8n.png`}
-              className="border-solid border-3 border-gray-700 rounded-l-xl border-r-0 h-[512px] hidden lg:block object-cover object-left-top"
-              alt="Dashboard Screenshot"
-            />
+            <div className="absolute p-[5px] #595959 rounded-lg h-[551px] w-[800px]  bg-gradient-to-r from-black to-white">
+              <div className="absolute rounded-lg w-full h-[542] top-[5px] bg-gradient-to-r from-transparent to-white"></div>
+              <img
+                src={`/assets/dashboards/n8n.png`}
+                className="h-[540px] w-[800px] hidden lg:block object-cover overflow-visible object-left-top"
+                alt="Dashboard Screenshot"
+              />
+            </div>
           </div>
         </div>
       </section>
       <section className="m-auto bg-white pt-12 pb-12">
         <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
-          <div className="hidden lg:block flex h-[512px] w-full m-auto">
-            <img
-              src={`/assets/dashboards/workato.png`}
-              className="border-solid border-3 border-gray-700 rounded-r-xl border-l-0 h-[512px] hidden lg:block object-cover"
-              alt="Dashboard Screenshot"
-            />
+          <div className="hidden lg:block flex h-[512px] w-full m-auto relative">
+            <div className="absolute -left-[316px] p-[5px] #595959 rounded-lg h-[550px] w-[950px]  bg-gradient-to-l from-black to-white overflow-hidden">
+              <div className="absolute rounded-lg w-full h-full top-[5px] bg-gradient-to-l from-transparent to-white"></div>
+              <img
+                src={`/assets/dashboards/workato.png`}
+                className="h-[543px] hidden lg:block object-cover overflow-visible object-left-top positioned"
+                alt="Dashboard Screenshot"
+                style={{right:'5px', position:'inherit'}}
+              />
+            </div>
           </div>
           <div className="relative lg:h-[600px] flex flex-col justify-center">
             <div className="pl-[80px]">
@@ -337,9 +350,7 @@ export default function DashboardPage() {
                 />
               </div>
               <div className="text-3xl font-semibold leading-[38px] my-4">Integrating with Workato</div>
-              <div className='pb-8'>
-                Leverage Workato for advanced, enterprise-grade automation workflows.
-              </div>
+              <div className="pb-8">Leverage Workato for advanced, enterprise-grade automation workflows.</div>
               <div>
                 <div className="flex gap-4 mb-4 items-center">
                   <Image src={'/assets/icons/check-circle.ico'} height={28} width={28} alt="Check Circle Icon" />

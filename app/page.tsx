@@ -52,12 +52,15 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="hidden lg:block z-2 content-container lg:col-span-5 flex h-[551px] w-full m-auto">
-              <img
-                src={`/assets/landing/dashboard.png`}
-                className="border-solid border-3 border-gray-700 rounded-l-xl border-r-0 h-[551px] hidden lg:block object-cover object-left-top"
-                alt="Dashboard Screenshot"
-              />
+            <div className="hidden relative lg:block z-2 content-container lg:col-span-5 flex h-[551px] w-full m-auto">
+              <div className='absolute p-[5px] #595959 rounded-lg h-[551px] w-[725px]  bg-gradient-to-r from-[#595959] to-[#F2F4F8]'>
+                <div className='absolute rounded-lg w-full h-[540] top-[5px] bg-gradient-to-r from-transparent to-[#F2F4F8]'></div>
+                <img
+                  src={`/assets/landing/dashboard.png`}
+                  className="h-[540px] hidden lg:block object-cover overflow-visible object-left-top"
+                  alt="Dashboard Screenshot"
+                />
+              </div>
             </div>
           </div>
           <div className="z-2 relative text-sm font-semibold bg-[#F2F4F8]">
