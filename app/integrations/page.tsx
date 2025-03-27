@@ -11,7 +11,7 @@ export default function DashboardPage() {
   const [integrateType, setIntegrateType] = useState<IntegrationType>('Zapier');
 
   return (
-    <div className="overflow-hidden w-full">
+    <div className="overflow-hidden w-full bg-white">
       <section className="banner m-auto bg-[#F2F4F8]">
         <div className="relative max-w-[1280px] m-auto z-1 lg:grid grid-cols-12 gap-4">
           <Image
@@ -51,7 +51,7 @@ export default function DashboardPage() {
             </div>
           </div>
           <div className="hidden lg:block z-2 content-container lg:col-span-5 flex h-[512px] w-full m-auto">
-            <div className="absolute p-[5px] #595959 rounded-lg h-[551px] w-[725px]  bg-gradient-to-r from-[#595959] to-[#F2F4F8]">
+            <div className="absolute p-[5px] rounded-lg h-[551px] w-[725px]  bg-gradient-to-r from-[#595959] to-[#F2F4F8]">
               <div className="absolute rounded-lg w-full h-[542] top-[5px] bg-gradient-to-r from-transparent to-[#F2F4F8]"></div>
               <img
                 src={`/assets/landing/dashboard.png`}
@@ -216,11 +216,11 @@ export default function DashboardPage() {
             </div>
           </div>
           <div className="hidden lg:block flex h-[512px] w-full m-auto pl-[80px]">
-            <div className="absolute p-[5px] #595959 rounded-lg h-[551px] w-[950px]  bg-gradient-to-r from-black to-white">
+            <div className="absolute p-[5px] rounded-lg h-[551px] bg-gradient-to-r from-black to-white">
               <div className="absolute rounded-lg w-full h-[542] top-[5px] bg-gradient-to-r from-transparent to-white"></div>
               <img
                 src={`/assets/dashboards/zapier.png`}
-                className="h-[540px] hidden lg:block object-cover overflow-visible object-left-top"
+                className="h-[540px] hidden lg:block object-cover object-left-top"
                 alt="Dashboard Screenshot"
               />
             </div>
@@ -228,9 +228,9 @@ export default function DashboardPage() {
         </div>
       </section>
       <section className="m-auto bg-white pt-12">
-        <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
+        <div className="lg:grid m-auto grid-cols-2 gap-4">
           <div className="hidden lg:block flex h-[512px] w-full m-auto relative">
-            <div className="absolute -left-[316px] p-[5px] pl-2 #595959 rounded-lg h-[550px] w-[950px]  bg-gradient-to-l from-black to-white overflow-hidden">
+            <div className="absolute right-[90px] p-[5px] pl-2 rounded-lg h-[550px] w-[950px]  bg-gradient-to-l from-black to-white overflow-hidden">
               <div className="absolute z-2 rounded-lg w-full h-full top-[5px] bg-gradient-to-l from-transparent to-white"></div>
               <img
                 src={`/assets/dashboards/make.png`}
@@ -315,11 +315,11 @@ export default function DashboardPage() {
             </div>
           </div>
           <div className="hidden lg:block flex h-[512px] w-full m-auto pl-[80px]">
-            <div className="absolute p-[5px] #595959 rounded-lg h-[551px] w-[800px]  bg-gradient-to-r from-black to-white">
+            <div className="absolute p-[5px] rounded-lg h-[551px] bg-gradient-to-r from-black to-white">
               <div className="absolute rounded-lg w-full h-[542] top-[5px] bg-gradient-to-r from-transparent to-white"></div>
               <img
                 src={`/assets/dashboards/n8n.png`}
-                className="h-[540px] w-[800px] hidden lg:block object-cover overflow-visible object-left-top"
+                className="h-[540px] w-[800px] hidden lg:block object-cover object-left-top"
                 alt="Dashboard Screenshot"
               />
             </div>
@@ -329,7 +329,7 @@ export default function DashboardPage() {
       <section className="m-auto bg-white pt-12 pb-12">
         <div className="lg:grid max-w-[1280px] m-auto grid-cols-2 gap-4">
           <div className="hidden lg:block flex h-[512px] w-full m-auto relative">
-            <div className="absolute -left-[256px] p-[5px] #595959 rounded-lg h-[550px] w-[800px]  bg-gradient-to-l from-black to-white overflow-hidden">
+            <div className="absolute -left-[256px] p-[5px] rounded-lg h-[550px] w-[800px] bg-gradient-to-l from-black to-white overflow-hidden">
               <div className="absolute z-2 rounded-lg w-full h-full top-[5px] bg-gradient-to-l from-transparent to-white"></div>
               <img
                 src={`/assets/dashboards/workato.png`}

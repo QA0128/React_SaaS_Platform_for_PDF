@@ -19,7 +19,7 @@ const Sidebar = ({isOpen}:{isOpen:boolean}) => {
   return (
     <aside
       className={`fixed top-[56px] w-64 bg-white text-white flex flex-col ${!isMobile ? 'open' : (isOpen? 'open':'close')}`}
-      style={{ height: `calc(100vh - 56px)` }}
+      style={{ height: `calc(100% - 56px)` }}
     >
       {/* Sidebar Menu Items */}
       <nav className="flex-grow space-y-2 mt-2 p-4">
